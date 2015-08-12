@@ -5,8 +5,10 @@ source 'https://rubygems.org'
 gem 'rails', '4.1.0'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', group: [:development, :test]
-
+# Use boostrap for styles
 gem 'bootstrap-sass', '3.3.1'
+# Use font awesome for icons
+gem 'font-awesome-sass', '4.2.0'
 
 # Use postgresql for production
 group :production do
