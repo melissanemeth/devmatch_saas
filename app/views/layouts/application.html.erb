@@ -32,7 +32,10 @@
 </nav>
 
 <div class="container">
-<%= yield %>
+  <% flash.each do |key, value| %>
+    <%= content_tag :div, value, class: "alert alert-danger" %>
+  <% end %>
+  <%= yield %>
 </div>
 
 </body>
