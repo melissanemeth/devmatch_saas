@@ -16,7 +16,7 @@ class ContactsController < ApplicationController
       flash[:success] = "Message sent"
       redirect_to new_contact_path
     else
-      flash[:error] = "You must fill out all fields"
+      flash[:danger] = "Error occurred, message not sent"
       redirect_to new_contact_path
     end
     
