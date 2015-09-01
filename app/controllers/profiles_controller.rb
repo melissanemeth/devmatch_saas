@@ -14,6 +14,7 @@ class ProfilesController < ApplicationController
       flash[:success] = "Your profile has been updated"
       redirect_to user_path( params[:user_id] )
     else
+      flash[:error] = "First name, last name, and email are required"
       render action: :new
     end
   end
@@ -30,6 +31,7 @@ class ProfilesController < ApplicationController
       flash[:success] = "Your profile has been updated"
       redirect_to user_path(params[:user_id])
     else
+      flash[:error] = "First name, last name, and email are required"
       render action: :edit
     end
   end
