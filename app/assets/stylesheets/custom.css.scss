@@ -3,10 +3,6 @@
 @import "font-awesome-sprockets";
 @import "font-awesome";
 
-body {
-  // Gradient from http://www.uigradients.com/
-  }
-  
 .alert-notice {
     color: #3C763D;
     background-color: #DFF0D8;
@@ -18,3 +14,95 @@ body {
   background-color: #F2DEDE;
   border-color: #EBCCD1;
 } 
+
+.btn-primary {
+  background-color: hsl(224, 68%, 29%) !important;
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#6082e0", endColorstr="#17327c");
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#6082e0), to(#17327c));
+  background-image: -moz-linear-gradient(top, #6082e0, #17327c);
+  background-image: -ms-linear-gradient(top, #6082e0, #17327c);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #6082e0), color-stop(100%, #17327c));
+  background-image: -webkit-linear-gradient(top, #6082e0, #17327c);
+  background-image: -o-linear-gradient(top, #6082e0, #17327c);
+  background-image: linear-gradient(#6082e0, #17327c);
+  border-color: #17327c #17327c hsl(224, 68%, 20.5%);
+  color: #fff !important; text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.56);
+  -webkit-font-smoothing: antialiased;
+}
+
+.btn-success { 
+  background-color: hsl(124, 53%, 17%) !important;
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2c9033", endColorstr="#144217");
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#2c9033), to(#144217));
+  background-image: -moz-linear-gradient(top, #2c9033, #144217);
+  background-image: -ms-linear-gradient(top, #2c9033, #144217);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2c9033), color-stop(100%, #144217));
+  background-image: -webkit-linear-gradient(top, #2c9033, #144217);
+  background-image: -o-linear-gradient(top, #2c9033, #144217);
+  background-image: linear-gradient(#2c9033, #144217);
+  border-color: #144217 #144217 hsl(124, 53%, 12%);
+  color: #fff !important; text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.33);
+  -webkit-font-smoothing: antialiased;
+}
+
+.btn-default {
+  background-color: hsl(0, 0%, 61%) !important;
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fcfcfc", endColorstr="#9b9b9b");
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#fcfcfc), to(#9b9b9b));
+  background-image: -moz-linear-gradient(top, #fcfcfc, #9b9b9b);
+  background-image: -ms-linear-gradient(top, #fcfcfc, #9b9b9b);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fcfcfc), color-stop(100%, #9b9b9b));
+  background-image: -webkit-linear-gradient(top, #fcfcfc, #9b9b9b);
+  background-image: -o-linear-gradient(top, #fcfcfc, #9b9b9b);
+  background-image: linear-gradient(#fcfcfc, #9b9b9b);
+  border-color: #9b9b9b #9b9b9b hsl(0, 0%, 51.5%); color: #333 !important;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.62);
+  -webkit-font-smoothing: antialiased;
+}
+
+.btn-danger {
+   background-color: hsl(0, 77%, 28%) !important;
+   background-repeat: repeat-x;
+   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e42f2f", endColorstr="#7e1010");
+   background-image: -khtml-gradient(linear, left top, left bottom, from(#e42f2f), to(#7e1010));
+   background-image: -moz-linear-gradient(top, #e42f2f, #7e1010);
+   background-image: -ms-linear-gradient(top, #e42f2f, #7e1010);
+   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e42f2f), color-stop(100%, #7e1010));
+   background-image: -webkit-linear-gradient(top, #e42f2f, #7e1010);
+   background-image: -o-linear-gradient(top, #e42f2f, #7e1010);
+   background-image: linear-gradient(#e42f2f, #7e1010);
+   border-color: #7e1010 #7e1010 hsl(0, 77%, 21.5%);
+   color: #fff !important; text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.42);
+   -webkit-font-smoothing: antialiased;
+}
+
+#home-background {
+  background-image: image-url("collaborate.jpg");
+  background-size: 100%;
+  overflow: hidden;
+}
+
+.transparent {
+  background: transparent;
+  color: black;
+}
+
+.semi-transparent {
+  color: black;
+  background: rgba(209, 209, 224, 0.4);
+  border: none;
+}
+
+.navbar-brand, .nav-link {
+  color: #FFFFE6 !important;
+}
+
+h1, h3 {
+  font-family: 'Coda', cursive;
+  text-shadow: 2px 1px 2px #FFF;
+}
+
+ 
